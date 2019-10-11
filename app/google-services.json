@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236464043846",
+    "firebase_url": "https://basketballcounter-8580e.firebaseio.com",
+    "project_id": "basketballcounter-8580e",
+    "storage_bucket": "basketballcounter-8580e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236464043846:android:b5e2763d0e0ba76eb21747",
+        "android_client_info": {
+          "package_name": "com.example.basketballcounterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236464043846-sr5hn6ge1pug2uk07cbfm0k6doaoal0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCefMOtwtRUFxqzV4RAF8ifIjH6mIxlmgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236464043846-sr5hn6ge1pug2uk07cbfm0k6doaoal0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
