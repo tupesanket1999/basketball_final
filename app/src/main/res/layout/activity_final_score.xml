@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Final_score"
-    android:background="#fff2df"
+    android:background="@drawable/celebration"
     android:orientation="vertical"
     android:gravity="center"
     android:id="@+id/mainLayout"
@@ -23,7 +23,7 @@
         android:padding="12dp"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="12dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         />
 
@@ -57,14 +57,16 @@
                     android:id="@+id/scoreShow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp" />
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FFFFFF"/>
 
 
                 <TextView
                     android:id="@+id/scoreShow1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp" />
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"/>
 
             </LinearLayout>
 
@@ -89,7 +91,8 @@
             android:layout_height="wrap_content"
             android:text=""
             android:textSize="16sp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"/>
 
 
         <TextView
@@ -99,47 +102,42 @@
             android:layout_height="wrap_content"
             android:text=""
             android:textSize="16sp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"/>
 
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Suggestions ?  "
-        android:textColor="#ee6002"
-        android:textSize="16sp"
-        android:layout_marginRight="20dp"/>
+
         <Button
             android:id="@+id/press"
-            android:text="Mail?"
+            android:text="Mail us !"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
+            android:textColor="#FFFFFF"
             android:textSize="12sp"
             android:textStyle="bold"
             android:gravity="center"
             android:onClick="suggestion"
             android:layout_marginRight="10dp"
             />
-        <Button
-            android:id="@+id/call"
-            android:text="call ?"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:onClick="callme"
 
-            />
+    <Button
+        android:id="@+id/logout"
+        android:text="logout ! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff8d00"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:onClick="callme"
+        />
 </LinearLayout>
     </LinearLayout>
 

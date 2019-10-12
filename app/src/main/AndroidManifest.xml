@@ -9,10 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".register_screen"
-            android:exported="true"></activity>
-        <activity android:name=".login_screen"
-            android:exported="true"/>
+
+        <activity android:name=".match_menu"
+            android:exported="true">
+        </activity>
+
+
+        <activity
+            android:name=".register_screen"
+            android:exported="true"
+            android:theme="@style/noTitle"></activity>
+
+        <activity
+            android:name=".login_screen"
+            android:exported="true"
+            android:theme="@style/noTitle"></activity>
+
         <activity
             android:name=".Splash"
             android:theme="@style/AppTheme.NoActionBar">
@@ -22,16 +34,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Final_score" />
+
+        <activity
+            android:name=".Final_score"
+            android:exported="true"
+            android:theme="@style/noTitle"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/noTitle"/>
         <activity
             android:name=".PlayerName"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/noTitle"/>
         <activity
             android:name=".EnterTeamName"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/noTitle"/>
     </application>
 
 </manifest>

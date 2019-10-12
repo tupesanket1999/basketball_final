@@ -22,6 +22,10 @@ import java.util.List;
 import android.app.AlertDialog;
 
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import static com.example.basketballcounterapp.MainActivity.s1;
 import static com.example.basketballcounterapp.MainActivity.s2;
@@ -41,8 +45,6 @@ public class EnterTeamName extends AppCompatActivity {
     Handler handler;
 
     int Seconds, Minutes, MilliSeconds ;
-
-
 
     String[] ListElements = new String[] {  };
 
@@ -719,9 +721,35 @@ public class EnterTeamName extends AppCompatActivity {
         team2b.setText("" + B);
     }
 
-    public void fisnish(View view){
+    public  void  genData(){
+
+    }
+    public void finish(View view){
+        /*
+       Data_match data_match = new Data_match(0);
+
+// Write a message to the database
+        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+
+        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("email");
+
+        myRef.setValue(currentUser.getEmail());
+
+        DatabaseReference myRef1 = database.getReference("email").child("data > ");
+
+        myRef1.setValue(data_match);
+
+
+         */
+
         Intent intent = new Intent(this, Final_score.class);
         startActivity(intent);
+
+
+
     }
 
     public Runnable runnable = new Runnable() {

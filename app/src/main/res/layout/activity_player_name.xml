@@ -6,219 +6,218 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlayerName"
-    android:background="#fff2df"
->
+    android:background="@drawable/back"
+    >
     <TextView
         android:id="@+id/plate"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter Player Names"
-        android:textColor="#ee6002"
+        android:textColor="#FFFFFF"
         android:textSize="32sp"
         android:gravity="center"
         android:layout_marginTop="24dp"/>
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_below="@+id/plate"
-    android:layout_above="@+id/press">
-
-
-    <ScrollView
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_below="@+id/plate"
-        android:layout_above="@+id/press"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="11dp"
-        android:layout_centerInParent="true"
-       >
+        android:layout_above="@+id/press">
 
-        <LinearLayout
-            android:id="@+id/team1_id"
-            android:layout_width="match_parent"
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_below="@+id/plate"
+            android:layout_above="@+id/press"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="0dp"
-            android:gravity="center"
-            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="11dp"
+            android:layout_centerInParent="true"
             >
 
-            <EditText
+            <LinearLayout
+                android:id="@+id/team1_id"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/p1"
-                style="@style/MyEditTextStyle1"/>
+                android:layout_height="match_parent"
+                android:layout_below="@+id/plate"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p2"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/p1"
+                    style="@style/MyEditTextStyle1"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p3"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p2"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p4"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p3"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p5"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p6"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p7"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p8"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p9"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p10"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p11"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                android:id="@+id/p12"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p4"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p5"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p6"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p7"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p8"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p9"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p10"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p11"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    android:id="@+id/p12"/>
 
 
-        </LinearLayout>
-    </ScrollView>
-    <ScrollView
-        android:layout_height="match_parent"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_below="@+id/plate"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_above="@+id/press"
-        android:layout_centerInParent="true"
-        >
-
-        <LinearLayout
-            android:id="@+id/team2_id"
-            android:layout_width="match_parent"
+            </LinearLayout>
+        </ScrollView>
+        <ScrollView
             android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_below="@+id/plate"
             android:layout_alignParentRight="true"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="0dp"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="11dp"
+            android:layout_above="@+id/press"
+            android:layout_centerInParent="true"
+            >
 
-            <EditText
-                android:id="@+id/p1o"
+            <LinearLayout
+                android:id="@+id/team2_id"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                />
+                android:layout_height="match_parent"
+                android:layout_below="@+id/plate"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/p2o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p1o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    />
 
-            <EditText
-                android:id="@+id/p3o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p2o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
 
-            <EditText
-                android:id="@+id/p4o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p3o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
 
-            <EditText
-                android:id="@+id/p5o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"/>
-            <EditText
-                android:id="@+id/p6o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
-            <EditText
-                android:id="@+id/p7o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p4o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
 
-            <EditText
-                android:id="@+id/p8o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p5o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"/>
+                <EditText
+                    android:id="@+id/p6o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p7o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
 
-            <EditText
-                android:id="@+id/p9o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"/>
+                <EditText
+                    android:id="@+id/p8o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
 
-            <EditText
-                android:id="@+id/p10o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1" />
+                <EditText
+                    android:id="@+id/p9o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"/>
 
-            <EditText
-                android:id="@+id/p11o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"/>
-            <EditText
-                android:id="@+id/p12o"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/MyEditTextStyle1"
-                />
+                <EditText
+                    android:id="@+id/p10o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1" />
+
+                <EditText
+                    android:id="@+id/p11o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"/>
+                <EditText
+                    android:id="@+id/p12o"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/MyEditTextStyle1"
+                    />
 
 
-        </LinearLayout>
-    </ScrollView>
+            </LinearLayout>
+        </ScrollView>
 
-</LinearLayout>
+    </LinearLayout>
 
 
 

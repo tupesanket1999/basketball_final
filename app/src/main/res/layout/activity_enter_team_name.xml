@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EnterTeamName"
-    android:background="#fff2df">
+    android:background="@drawable/back2"
+    android:padding="12dp">
 
 
     //Linear Layout for Team A
@@ -18,6 +19,7 @@
         android:layout_marginLeft="0dp"
         android:orientation="vertical"
         android:gravity="center"
+        android:padding="5dp"
         >
         <TextView
             android:textStyle="bold"
@@ -25,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Team A"
-            android:textColor="#ee6002"
+            android:textColor="#000000"
             android:textSize="32sp" />
         <TextView
             android:id="@+id/team1"
@@ -40,39 +42,43 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#ff8d00"
+            android:background="@drawable/button"
             android:text=" 2 Pointer"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByTwo"/>
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByTwo"
+            android:layout_margin="5dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#ff8d00"
+            android:background="@drawable/button"
             android:text=" 3 Pointer"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByThree"/>
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByThree"
+            android:layout_margin="5dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text=" Free Throw"
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByOne"/>
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByOne"
+            android:layout_margin="5dp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text=" Foul "
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="Foul"/>
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="Foul"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
 
@@ -85,6 +91,7 @@
         android:layout_marginLeft="0dp"
         android:orientation="vertical"
         android:gravity="center"
+        android:padding="5dp"
         >
         <TextView
             android:textStyle="bold"
@@ -92,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Team B"
-            android:textColor="#ee6002"
+            android:textColor="#000000"
             android:textSize="32sp" />
         <TextView
             android:id="@+id/team2"
@@ -107,38 +114,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#ff8d00"
+            android:background="@drawable/button"
             android:text=" 2 Pointer"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByTwo1"/>
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByTwo1"
+            android:layout_margin="5dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#ff8d00"
+            android:background="@drawable/button"
             android:text=" 3 Pointer"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByThree1"/>
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByThree1"
+            android:layout_margin="5dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#ff8d00"
+            android:background="@drawable/button"
             android:layout_marginTop="10dp"
             android:text=" Free Throw"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="IncrementByOne1"/>
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="IncrementByOne1"
+            android:layout_margin="5dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text=" Foul "
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
-            android:textSize="12sp"
-            android:onClick="Foul1"/>
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:onClick="Foul1"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
 
@@ -160,7 +171,7 @@
             android:id="@+id/textView"
             android:textSize="50dp"
             android:textStyle="bold"
-            android:textColor="#FFAB40"
+            android:textColor="#000000"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
@@ -176,50 +187,53 @@
             android:layout_marginTop="20dp">
 
 
-        <Button
-            android:text="Start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:id="@+id/button"
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"
-            />
+            <Button
+                android:text="Start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/button"
+                android:background="@drawable/button"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                />
 
-        <Button
-            android:text="Pause"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:layout_alignBaseline="@+id/button"
-            android:layout_alignBottom="@+id/button"
-            android:layout_centerHorizontal="true"
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"/>
+            <Button
+                android:text="Pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:layout_alignBaseline="@+id/button"
+                android:layout_alignBottom="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button"
+                android:textColor="#000000"
+                android:layout_margin="5dp"/>
 
-        <Button
-            android:text="Reset"
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/button2"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
+            <Button
+                android:text="Reset"
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/button"
+                android:textColor="#000000"/>
 
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"/>
-
-        <Button
-            android:text="Save Lap"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button4"
-            android:layout_below="@+id/button"
-            android:layout_centerHorizontal="true"
-            android:backgroundTint="#ff8d00"
-            android:textColor="#ffddb0"/>
+            <Button
+                android:text="Save Lap"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4"
+                android:layout_below="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button"
+                android:textColor="#000000"
+                android:layout_margin="5dp"/>
 
         </LinearLayout>
 
@@ -230,8 +244,8 @@
             android:layout_below="@+id/button4"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="75dp"/>
-
+            android:layout_marginBottom="75dp"
+            android:padding="5dp"/>
 
     </LinearLayout>
 
@@ -239,14 +253,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#ff8d00"
+        android:background="@drawable/button"
         android:text="Finish Match"
         android:textColor="#ffddb0"
         android:textSize="12sp"
-        android:onClick="fisnish"
+        android:onClick="finish"
         android:layout_marginBottom="5dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:layout_margin="5dp"
         />
-
 </RelativeLayout>

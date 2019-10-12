@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "236464043846-bgee3jfodh8gg62baljetv2mllvc7b1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basketballcounterapp",
+            "certificate_hash": "383e93714552f7034bd8c2a4b24778067eddd6b6"
+          }
+        },
+        {
           "client_id": "236464043846-sr5hn6ge1pug2uk07cbfm0k6doaoal0o.apps.googleusercontent.com",
           "client_type": 3
         }

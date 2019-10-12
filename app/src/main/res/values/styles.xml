@@ -76,6 +76,11 @@
 
     </style>
 
+    <style name="noTitle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">#ff8d00</item>
+
+    </style>
+
 
     <style name="MyEditTextStyle3" parent="android:Widget.TextView">
         <item name="android:layout_width">match_parent</item>

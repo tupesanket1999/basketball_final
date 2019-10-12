@@ -6,19 +6,31 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Final_score extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_score);
 
+        Button button = findViewById(R.id.logout);
+         button.setOnClickListener(click1);
+
+
+
 
         TextView textView =  (TextView) findViewById(R.id.scoreShow);
         textView.setText("");
         String summary="";
+
+
 
         TextView textViewF =  (TextView) findViewById(R.id.finals);
         String statementFinal="";
@@ -113,5 +125,14 @@ public class Final_score extends AppCompatActivity {
         callmeph();
     }
 
+
+    View.OnClickListener click1 = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Final_score.this, login_screen.class);
+            startActivity(intent);
+        }
+    };
 
 }
