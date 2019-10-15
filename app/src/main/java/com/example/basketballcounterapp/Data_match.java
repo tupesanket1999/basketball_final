@@ -67,7 +67,7 @@ public class Data_match{
         int three=0;
         int two=0;
         int free=0;
-        int foul=0;
+        int foul=0;xzy
     }
 }
 */
